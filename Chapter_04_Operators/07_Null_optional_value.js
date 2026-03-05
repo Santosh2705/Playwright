@@ -13,14 +13,25 @@ These are very useful in data handling and also used in Modern JS
 
 // Statement -> Bring Amul milk, If Amul milk is not there then bring Nandini milk
 
-let amul = null;
-let val = amul ?? "Nandini Milk";
+// let amul = null;
+// let val = amul ?? "Nandini Milk";
 
-val_1 = "Which Milk -> " + val;
-console.log(val_1);
+// val_1 = "Which Milk -> " + val;
+// console.log(val_1);
 
-let bike = null;
-let santosh_wants = bike ?? "Scooter";
+// let bike = null;
+// let santosh_wants = bike ?? "Scooter";
 
-santosh_needs = "Santosh needs -> " + santosh_wants;
-console.log(santosh_needs);
+// santosh_needs = "Santosh needs -> " + santosh_wants;
+// console.log(santosh_needs);
+
+let amul_milk = null;
+let milk_given = amul_milk ?? "Nandini";
+let final_drinking_milk = "Milk provided :" + milk_given;
+console.log (final_drinking_milk);
+
+let santosh = null;
+let santosh_wants = santosh ?? "scooter";
+let santosh_rides = "Santosh Will ride :" + santosh_wants;
+console.log (santosh_rides);
+

@@ -18,6 +18,8 @@ Differnet types of Comparison Opertors:
 
 console.log(4>=4); // Returns true since its as OR condition where one of the consition satisfied
 
-console.log(5 != "5"); // Returns false since 5=int & "5" is string - Both of them are  not equal 
+console.log(5 != "5"); // Returns false since 5=int & "5" is string - Both of them are not equal 
 
-console.log(5 !== "5");
+console.log(5 !== "5"); // true 
+
+// conslog.log(5 !=== "5"); -> This doesn't exist

@@ -10,5 +10,5 @@ console.log(!b);
 // String Operators
 
 let s = "Hi";
-s += " World";
+s += " World"; // String  Concatination
 console.log (s);
