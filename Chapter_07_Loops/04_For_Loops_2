@@ -1,0 +1,18 @@
+// Using IF condition inside For loops
+
+for (let citizen=0 ; citizen<20 ; citizen++){
+    if (citizen >= 18 ){
+        console.log("Citizen has right to vote");
+    }
+    else{
+        console.log("Citizen is Minor")
+    }
+}
+
+// Suppoese if we execute the for loop without the updation
+
+// for (i=0 ; i<10;){
+//     console.log("Hello") 
+//     // Here the loop will be executed infinite times 
+//     // since the updation condition is not sepecified loop will be keep on executing infinite
+// }
