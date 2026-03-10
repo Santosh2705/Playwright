@@ -9,7 +9,7 @@
 - 500 → "FAIL - Internal Server Error: Backend issue"
 - Any other → "UNKNOWN - Unhandled status code"
 */
-let response_code = 4056;
+let response_code = 201;
 
 if (response_code == 200){
     console.log("PASS - OK: Request successful")
